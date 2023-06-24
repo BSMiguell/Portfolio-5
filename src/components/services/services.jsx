@@ -1,7 +1,7 @@
 import React from "react";
-import "./services.css";
 import { services as servicesData } from "../../Data";
 import { FaArrowRight } from "react-icons/fa";
+import shapeTwo from "../../assets/shape-2.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,6 +13,8 @@ import "swiper/css/pagination";
 // Import required modules
 import { Pagination } from "swiper";
 
+import "./services.css";
+
 const Services = () => {
   return (
     <section className="services section" id="services">
@@ -22,22 +24,21 @@ const Services = () => {
       </p>
 
       <Swiper
-        spaceBetween={10}
         pagination={{
           clickable: true,
         }}
         breakpoints={{
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
+          540: {
+            slidesPerView: 1,
+            spaceBetween: 30,
           },
           768: {
-            slidesPerView: 4,
-            spaceBetween: 40,
+            slidesPerView: 2,
+            spaceBetween: 30,
           },
-          1024: {
-            slidesPerView: 5,
-            spaceBetween: 50,
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 40,
           },
         }}
         modules={[Pagination]}
@@ -53,6 +54,7 @@ const Services = () => {
                 See Pricing
                 <FaArrowRight className="link__icon"></FaArrowRight>
               </a>
+              <img src={shapeTwo} alt="" className="shape c__shape" />
             </SwiperSlide>
           );
         })}

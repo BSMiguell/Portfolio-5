@@ -16,7 +16,7 @@ const Home = () => {
           </p>
 
           <h1 className="home__title text-cs">
-            <span>ZOÉ</span> MILLER
+            <span>BS</span> Miguel
           </h1>
 
           <p className="home__job">
@@ -32,7 +32,7 @@ const Home = () => {
 
             <p className="home__data home__data-one">
               <span className="text-lg">
-                12 <strong>+</strong>
+                1 <strong>+</strong>
               </span>
 
               <span className="text-sm text-cs">
@@ -41,7 +41,7 @@ const Home = () => {
             </p>
 
             <p className="home__data home__data-two">
-              <span className="text-lg">330</span>
+              <span className="text-lg">35</span>
 
               <span className="text-sm text-cs">
                 Completed <span>Projects</span>
@@ -54,8 +54,12 @@ const Home = () => {
           </div>
 
           <p className="home__text">
-            From France, Paris. I have rich experience in web design, also I am
-            good at wordpress. I love to talk with you about our unique
+            Hello, My Name Is Bruno I'm 19 I Was Born In Bahia In Salvador I Was
+            7 Years Old I Moved To Rio De Janeiro And I've Lived Here For 12
+            Years I'm Currently Studying Html And Css Js And Py, My Hobbies And
+            Playing Games Lol And Being Sad About That I'm Mono Aatrox And Main
+            Darius, Kled And Swain, I'm Building This Site For Pure Training And
+            Fun.
           </p>
 
           <div className="home__socials">

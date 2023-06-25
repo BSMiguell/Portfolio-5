@@ -11,6 +11,22 @@
 .pricing__item:nth-child(2) {
   border: 2px solid var(--border-color);
 }
+.pricing__item-wrapper {
+  position: relative;
+}
+.pricing__label {
+  top: -12px;
+  right: 40px;
+  z-index: 20;
+  color: var(--title-color);
+  padding: 4px 16px;
+  border-radius: 26px;
+  position: absolute;
+  background-color: var(--primary-color);
+  box-shadow: var(--shadow);
+  font-size: var(--tiny-font-size);
+  font-weight: 700;
+}
 .pricing__subtitle {
   color: var(--title-color);
   font-size: var(--tiny-font-size);

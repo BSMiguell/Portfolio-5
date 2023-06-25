@@ -78,6 +78,9 @@
   filter: invert(0);
   opacity: 1;
 }
+.light-theme .bg__title {
+  color: rgba(0, 0, 0, 0.2);
+}
 /* === x === x === == x === x === */
 
 /* ========= RESET ========= */
@@ -219,6 +222,7 @@ img {
   overflow: hidden;
   text-align: left;
   position: relative;
+  z-index: 10;
 }
 .card-one {
   padding: 30px 35px;
@@ -303,5 +307,19 @@ img {
   top: -200px;
   left: -168px;
   z-index: -1;
+}
+.section__bg-wrapper {
+  position: absolute;
+  bottom: 148px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.bg__title {
+  font-size: clamp(12.625rem, 10.5417rem + 9.5238vw, 17.875rem);
+  font-family: var(--second-font);
+  font-weight: 700;
+  white-space: nowrap;
+  line-height: 1px;
+  color: rgba(255, 255, 255, 0.02);
 }
 /* === x === x === == x === x === */

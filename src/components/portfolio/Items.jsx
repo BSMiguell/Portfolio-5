@@ -26,7 +26,7 @@ const Items = ({ projectsItems }) => {
             <h3 className="portfolio___title">{title}</h3>
             <p className="portfolio__description">{description}</p>
 
-            <a href="" className="link">
+            <a href="#pricing" className="link">
               See Pricing
               <FaArrowRight className="link__icon"></FaArrowRight>
             </a>

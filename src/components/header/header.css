@@ -37,6 +37,7 @@
   display: flex;
   background-color: var(--bg-color-alt);
   transition: all 1s var(--transition);
+  overflow: hidden;
   z-index: 10;
 }
 .show-menu {

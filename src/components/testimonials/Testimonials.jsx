@@ -2,6 +2,7 @@ import React from "react";
 import { testimonials } from "../../Data";
 import shapeTwo from "../../assets/shape-2.png";
 import testimonialIcon from "../../assets/testimonials-icon.svg";
+import shapeOne from "../../assets/shape-1.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -63,6 +64,10 @@ const Testimonials = () => {
           );
         })}
       </Swiper>
+
+      <div className="section__deco deco__right">
+        <img src={shapeOne} alt="" className="shape" />
+      </div>
     </section>
   );
 };

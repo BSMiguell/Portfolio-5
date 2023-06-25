@@ -139,7 +139,7 @@ img {
 }
 .container {
   max-width: 1300px;
-  padding-inline: 0.75rem;
+  padding-inline: 0.75rem !important;
   margin-inline: auto;
 }
 .grid {
